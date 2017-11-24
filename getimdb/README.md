@@ -1,23 +1,4 @@
-# getimdb
 
-getimdb
-
-
-# Installation
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
-
-
-# Usage
-
-To use it:
-
-    $ getimdb --help
 
 #การใช้งานโปรแกรม getimdb ดูโปสเตอร์หนัง
 #1 Git clone มายังเครื่องใช้คำสั่ง
