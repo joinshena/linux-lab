@@ -1,6 +1,9 @@
-
-
 #การใช้งานโปรแกรม getimdb ดูโปสเตอร์หนัง
+
+  .........
+
+
+
 #1 Git clone มายังเครื่องใช้คำสั่ง
 ```sh
 git clone https://github.com/joinshena/linux-lab.git
