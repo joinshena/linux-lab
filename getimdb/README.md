@@ -41,7 +41,7 @@ pip install --user .
  
 #ตัวอย่างการหาโปรเตอร์หนัง มี thor และ aveger นะจ๊ะ
 ```sh
-tt0800369 
-tt2395427 
+getimdb tt0800369 
+getimdb tt2395427 
 ```
 
