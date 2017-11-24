@@ -11,12 +11,12 @@ def main(name, as_cowboy):
     	"""getimdb"""
     	#greet = 'Howdy' if as_cowboy else 'Hello'
     	#click.echo('{0}, {1}.'.format(greet, name))
-	Url='http://api.themoviedb.org/3/movie/{}/images?api_key=0ef20538f6e729adcbac42debfcfbb1c'.format(name)
+	Url='http://api.themoviedb.org/3/movie/{0}/images?api_key=0ef20538f6e729adcbac42debfcfbb1c'.format(name)
 	r=requests.get(Url)
 	api=r.json()
 	posters=api['posters']
 	for poster in posters:
-	url='http://image.tmdb.org/t/p/original{}'.format(poster['file_path'])
+		url='http://image.tmdb.org/t/p/w500{}'.format(poster['file_path'])			
 	req=requests.get(url)
 	img=Image.open(StringIO(req.content))
 	img.show()
